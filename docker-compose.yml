@@ -34,7 +34,7 @@ services:
       - "7350:7350"
       - "7351:7351"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:7350/"]
+      test: ["CMD", "curl", "-f", "http://34.241.177.219:7350/"]
       interval: 10s
       timeout: 5s
       retries: 5
